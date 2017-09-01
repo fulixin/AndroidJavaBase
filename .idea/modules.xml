@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidJavaBase.iml" filepath="$PROJECT_DIR$/AndroidJavaBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselibrary/baselibrary.iml" filepath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/incrementupdatelibrary/incrementupdatelibrary.iml" filepath="$PROJECT_DIR$/incrementupdatelibrary/incrementupdatelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permissionlibrary/permissionlibrary.iml" filepath="$PROJECT_DIR$/permissionlibrary/permissionlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjava2library/rxjava2library.iml" filepath="$PROJECT_DIR$/rxjava2library/rxjava2library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webpagelibrary/webpagelibrary.iml" filepath="$PROJECT_DIR$/webpagelibrary/webpagelibrary.iml" />
+    </modules>
+  </component>
+</project>
