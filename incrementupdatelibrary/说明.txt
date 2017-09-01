@@ -1,0 +1,11 @@
+增量更新库
+//对比新包和旧包生成增量包，一般是在服务器做，然后客户端下载增量包
+Diffutils.generateDiffApk(ApkUtils.extract(MainActivity.this), 新包存放路径 + "新包名.apk", mPath + "增量包名.patch");
+//根据增量包和本地安装包生成新的安装包，这部在客户端完成
+Diffutils.mergeDiffApk(ApkUtils.extract(MainActivity.this), 新包存放路径 + "新包名.apk", mPath + "增量包名.patch");
+//安装新包
+Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                i.setDataAndType(Uri.fromFile(new File(新包存放路径 + "新包名.apk")),
+                        "application/vnd.android.package-archive");
+                startActivity(i);

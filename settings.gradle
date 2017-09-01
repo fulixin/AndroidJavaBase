@@ -1,0 +1,1 @@
+include ':app', ':baselibrary', ':permissionlibrary', ':webpagelibrary', ':rxjava2library', ':incrementupdatelibrary'

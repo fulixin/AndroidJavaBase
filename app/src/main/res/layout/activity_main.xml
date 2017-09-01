@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是新包"/>
+
+    <Button
+        android:id="@+id/id_main_button_cope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成增量更新包" />
+
+    <Button
+        android:id="@+id/id_main_button_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成更新后的安装包" />
+
+    <Button
+        android:id="@+id/id_main_button_install"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="安装更新后的安装包" />
+</LinearLayout>
