@@ -1,13 +1,7 @@
 package com.fu.base;
 
-import com.fu.base.tools.httprequest.IHttprequestInface;
-import com.fu.base.tools.httprequest.impl.HttpRetrofitInfaceImpl;
 
 import org.junit.Test;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -59,6 +53,6 @@ public class ExampleUnitTest {
 //            }
 //        });
 
-        new HttpRetrofitInfaceImpl().request();
+//        new HttpRetrofitInfaceImpl().request();
     }
 }
